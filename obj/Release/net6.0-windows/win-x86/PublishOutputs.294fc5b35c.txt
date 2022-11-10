@@ -1,0 +1,7 @@
+D:\kevät22\kalenteri\kalenteri.pdb
+D:\kevät22\kalenteri\D3DCompiler_47_cor3.dll
+D:\kevät22\kalenteri\PenImc_cor3.dll
+D:\kevät22\kalenteri\PresentationNative_cor3.dll
+D:\kevät22\kalenteri\vcruntime140_cor3.dll
+D:\kevät22\kalenteri\wpfgfx_cor3.dll
+D:\kevät22\kalenteri\kalenteri.exe

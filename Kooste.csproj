@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <DebugType>embedded</DebugType>
+    <StartupObject>Kooste.App</StartupObject>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>False</UseWindowsForms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Revachol_Vista.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Revachol_Vista.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

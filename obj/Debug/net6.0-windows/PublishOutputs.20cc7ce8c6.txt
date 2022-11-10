@@ -1,0 +1,5 @@
+D:\kevät22\AAAAAA\kalenteri\kalenteri\bin\Debug\net6.0-windows\publish\kalenteri.exe
+D:\kevät22\AAAAAA\kalenteri\kalenteri\bin\Debug\net6.0-windows\publish\kalenteri.dll
+D:\kevät22\AAAAAA\kalenteri\kalenteri\bin\Debug\net6.0-windows\publish\kalenteri.deps.json
+D:\kevät22\AAAAAA\kalenteri\kalenteri\bin\Debug\net6.0-windows\publish\kalenteri.runtimeconfig.json
+D:\kevät22\AAAAAA\kalenteri\kalenteri\bin\Debug\net6.0-windows\publish\kalenteri.pdb

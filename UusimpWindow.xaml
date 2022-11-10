@@ -1,0 +1,34 @@
+﻿<Window x:Class="Kooste.UusimpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kooste"
+        mc:Ignorable="d"        
+        Title="Uusi muistiinpano" Height="473" Width="490">
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Exit" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="edit">
+                <MenuItem Header="copy" Command="ApplicationCommands.Copy"/>
+                <MenuItem Header="paste" Command="ApplicationCommands.Paste"/>
+            </MenuItem>
+        </Menu>
+        <Grid x:Name="grid">
+            <TextBox Name ="teksti" HorizontalAlignment="Left" Text="" AcceptsReturn="True" Width="306" Margin="139,65,0,34" />
+            <TextBlock HorizontalAlignment="Left" Margin="12,6,0,0" TextWrapping="Wrap" Text="Aihe:" VerticalAlignment="Top" Height="50" Width="81" FontSize="36"/>
+            <ComboBox x:Name="AiheValikko" HorizontalAlignment="Left" Margin="98,10,0,0" VerticalAlignment="Top" Width="220" Height="41" IsDropDownOpen="True" SelectedIndex="0">
+                <ComboBoxItem Content ="Työ"/>
+                <ComboBoxItem Content ="opiskelu"/>
+                <ComboBoxItem Content ="Liikunta"/>
+                <ComboBoxItem Content ="Muu"/>
+            </ComboBox>
+            <TextBlock HorizontalAlignment="Left" Margin="10,65,0,0" TextWrapping="Wrap" Text="Sisältö:" VerticalAlignment="Top" Height="50" Width="113" FontSize="36"/>
+            <Button Content="Tallenna" HorizontalAlignment="Left" Margin="10,287,0,0" VerticalAlignment="Top" Height="41" Width="111" Click="Save_Click"/>
+            <Button Content="Peruuta" IsCancel="True" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Height="41" Width="111" RenderTransformOrigin="0.5,0.584"/>
+        </Grid>
+    </DockPanel>
+</Window>

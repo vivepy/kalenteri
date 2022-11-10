@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "OdRCSYclopPbb4dnt2NUgBw0j48YbLMEe5M98Rmn1Exlipv8vQAPs2D5YAYH7PNRGNgdeHA6c/Xdi2ThRF87Pg==",
+  "success": false,
+  "projectFilePath": "D:\\kevät22\\AAAAAA\\kalenteri\\kalenteri\\kalenteri.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Runtime.win-x64 (= 6.0.2)' for 'net6.0-windows7.0'.",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Runtime.win-x64 (= 6.0.2)' for 'net6.0-windows7.0'.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Runtime.win-x64 (= 6.0.2)' for 'net6.0-windows7.0'.",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NETCore.App.Crossgen2.win-x64 (= 6.0.2)' for 'net6.0-windows7.0'.",
+      "libraryId": "Microsoft.NETCore.App.Crossgen2.win-x64",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
